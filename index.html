@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <meta name="description" content="Calculator created with JavaScript">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="calculator">
+            <div id="display">0</div>
+            <div class="keyboard">
+                <div class="row">
+                    <div class="button"><input type="button" value="C" class="gray" onclick="keyContent('C')"></div>
+                    <div class="button"><input type="button" value="+/−" class="gray" onclick="keyContent('+/−')"></div>
+                    <div class="button"><input type="button" value="%" class="gray" onclick="keyContent('%')"></div>
+                    <div class="button"><input type="button" value="÷" class="pale-pink" onclick="keyContent('÷')"></div>
+                </div>
+                <div class="row">
+                    <div class="button"><input type="button" value="7" class="white" onclick="keyContent(7)"></div>
+                    <div class="button"><input type="button" value="8" class="white" onclick="keyContent(8)"></div>
+                    <div class="button"><input type="button" value="9" class="white" onclick="keyContent(9)"></div>
+                    <div class="button"><input type="button" value="×" class="pale-pink" onclick="keyContent('×')"></div>
+                </div>
+                <div class="row">
+                    <div class="button"><input type="button" value="4" class="white" onclick="keyContent(4)"></div>
+                    <div class="button"><input type="button" value="5" class="white" onclick="keyContent(5)"></div>
+                    <div class="button"><input type="button" value="6" class="white" onclick="keyContent(6)"></div>
+                    <div class="button"><input type="button" value="+" class="pale-pink" onclick="keyContent('+')"></div>
+                </div>        
+                <div class="row">
+                    <div class="button"><input type="button" value="1"  class="white" onclick="keyContent(1)"></div>
+                    <div class="button"><input type="button" value="2"  class="white" onclick="keyContent(2)"></div>
+                    <div class="button"><input type="button" value="3" class="white" onclick="keyContent(3)"></div>
+                    <div class="button"><input type="button" value="−" class="pale-pink" onclick="keyContent('−')"></div>
+                </div>
+                <div class="row">
+                    <div class="button-oval"><input type="button" value="0" class="white-oval" onclick="keyContent(0)"></div>
+                    <div class="button"><input type="button" value="." class="white" onclick="keyContent('.')"></div>
+                    <div class="button"><input type="button" value="＝" class="violet" onclick="keyContent('=')"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
